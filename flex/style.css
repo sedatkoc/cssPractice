@@ -1,0 +1,40 @@
+body {
+    background-color: #101010;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+section, aside, div {
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+
+
+
+.blue {
+    background-color: #2245ad;
+   
+    background-image: linear-gradient(lighten(#2245ad, 12%) 0%, #2245ad 70%); 
+  }
+
+
+.green {
+        background-color: #0fa03f;
+
+        background-image: linear-gradient(lighten(#0fa03f 12%) 0%, #0fa03f 70%); 
+}
+
+
+.flex-container{
+    display: flex;
+}
+
+.main-content {
+    flex: 1;  
+}
+  
+.sidebar {
+    flex: 300px 0 0;
+}
